@@ -1,0 +1,48 @@
+# vi:syntax=sh
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# Make Bash error tolerant
+alias :q=' exit'
+alias :Q=' exit'
+alias :x=' exit'
+alias cd..='cd ..'
+
+# Safety features
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+
+# Pacman
+alias pacman='nice pacman'
+alias pacup='sudo nice pacman -Syu'
+alias pacin='sudo nice pacman -S'
+alias pacout='sudo nice pacman -Rncs'
+alias pacshownouse='nice pacman -Qdt'
+alias pacremovenouse='sudo nice pacman -Rscn $(pacman -Qtdq)'
+
+# Compiling
+alias makepkg='nice makepkg'
+alias yaourt='nice yaourt'
+alias aurup='nice aurget -Su --noedit --noconfirm --builddir /tmp/aur --nodiscard'
+alias make='nice make'
+
+alias ls='ls --color=auto --group-directories-first -h'
+alias grep='grep --color=auto'
+alias man='man -P most'
+alias vi='vim'
+alias diff='icdiff'
+alias unnethack='telnet eu.un.nethack.nu'
+
+alias ducks='du -cksh * | sort -rn'
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias locate='locate -ir'
+alias vcp='rsync --progress'
+alias tclog='tail -f -n 20 /opt/tomcat/logs/catalina.out'
+
+# Disc burning (more in .bash_functions)
+alias burn-iso='wodim -dao -v dev=/dev/sr0'
+alias burn-cue='cdrdao write -n --driver generic-mmc-raw --device /dev/sr0'
+alias burn-blank='wodim -v dev=/dev/sr0 -blank=fast'

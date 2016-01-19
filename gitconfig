@@ -1,0 +1,19 @@
+[color]
+  ui = auto
+[push]
+  default = simple
+[diff]
+  tool = meld
+[cola]
+  tabwidth = 2
+  fontdiff = Monospace,8,-1,5,50,0,0,0,0,0
+  boldheaders = true
+[gui]
+  editor = geany
+  historybrowser = gitk
+[branch]
+  autosetuprebase = always
+[merge]
+  tool = meld
+[alias]
+  ls = log --graph --format=format:'%C(auto)%h - (%ar) %s - %cn %d' --abbrev-commit
