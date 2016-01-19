@@ -26,7 +26,9 @@ BACKUP_DIR=~/dotfiles_backup             # old dotfiles backup directory
 echo "Creating $BACKUP_DIR for backup of any existing dotfiles in ~"
 mkdir -p $BACKUP_DIR
 
-for file in $(ls -p $DOTFILE_DIR | grep -v /); do
+files=$(ls -p $DOTFILE_DIR | grep -v / | grep -v README.md)
+
+for file in $files; do
     if [ -f ~/.$file ] && ! [ -L ~/.$file ]; then
         # Move any existing dotfiles in home directory to backup directory
         mv ~/.$file $BACKUP_DIR
