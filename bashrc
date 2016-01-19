@@ -19,13 +19,15 @@ fi
 export JAVA_HOME=/usr/lib/jvm/default
 export GRAILS_HOME=/opt/grails/grails-2.4.4
 export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
+export ANDROID_HOME=~/hdd/android-sdk
 
-export PATH=${PATH}:$HOME/bin
+export PATH=${PATH}:~/bin
 export PATH=${PATH}:$GRAILS_HOME/bin
 export PATH=${PATH}:$GEM_HOME/bin
 export PATH=${PATH}:~/.node_modules/bin
-export PATH=${PATH}:~/hdd/Android/Sdk/platform-tools
-export PATH=${PATH}:~/hdd/Android/Sdk/tools
+export PATH=${PATH}:$ANDROID_HOME/platform-tools
+export PATH=${PATH}:$ANDROID_HOME/tools
+export PATH=$PATH:~/.composer/vendor/bin
 
 export EDITOR=vim
 export QT_STYLE_OVERRIDE=gtk
