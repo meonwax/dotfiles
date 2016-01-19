@@ -30,7 +30,10 @@ xinput disable 11
 # Disable insert key
 xmodmap -e 'keycode 118 = '
 
-# Enable numlock
+# Disable CapsLock
+xmodmap -e 'keycode 66 = '
+
+# Activate numlock
 numlockx on
 
 # Dual monitor setup for radeon
