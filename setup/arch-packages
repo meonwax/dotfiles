@@ -1,3 +1,4 @@
+sudo
 bash-completion
 htop
 wget
@@ -13,3 +14,5 @@ bind-tools
 most
 zip
 ntp
+iotop
+nettop

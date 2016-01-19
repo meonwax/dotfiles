@@ -33,6 +33,8 @@ alias ls='ls --color=auto --group-directories-first -h'
 alias grep='grep --color=auto'
 alias man='man -P most'
 alias vi='vim'
+alias iotop='sudo iotop'
+alias nettop='sudo nettop'
 alias diff='icdiff'
 alias unnethack='telnet eu.un.nethack.nu'
 
