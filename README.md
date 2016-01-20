@@ -1,6 +1,7 @@
 # My personal configuration files
 
-These files should work on all major Linux distributions as long as the required packages are installed.
+These files should work on all major Linux distributions as long as the required packages are installed.  
+I'm using *bash*, so no fancy *zsh* configuration.
 
 ## Setup
 
@@ -11,10 +12,14 @@ These files should work on all major Linux distributions as long as the required
     dotfiles/setup/setup.sh
 
 All config files will be symlinked from home directory to the repository location.  
-Possibly existing files will be copied to `~/dotfiles_backup/`.
+Possibly existing files will be copied to `~/dotfiles_backup/`:
 
     # List backed up files
     ls -la ~/dotfiles_backup/
+
+Alternatively, you can just symlink the wanted files:
+
+    ln -s $(pwd)/dotfiles/vimrc ~/.vimrc
 
 ## Inspired by
 
