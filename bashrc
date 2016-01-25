@@ -28,11 +28,11 @@ else
   export PYTHONUSERBASE=~/.pip
 
   export PATH=${PATH}:~/bin
-  export PATH=${PATH}:$GRAILS_HOME/bin
-  export PATH=${PATH}:$GEM_HOME/bin
+  export PATH=${PATH}:${GRAILS_HOME}/bin
+  export PATH=${PATH}:${GEM_HOME}/bin
   export PATH=${PATH}:~/.node_modules/bin
-  export PATH=${PATH}:$ANDROID_HOME/platform-tools
-  export PATH=${PATH}:$ANDROID_HOME/tools
+  export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+  export PATH=${PATH}:${ANDROID_HOME}/tools
   export PATH=${PATH}:~/.composer/vendor/bin
   export PATH=~/.pip/bin:${PATH}
 fi
