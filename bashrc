@@ -57,5 +57,8 @@ bind 'set visible-stats on'            # Show file info in complete
 [[ -f ~/.bash_functions ]] && . ~/.bash_functions
 [[ -f ~/.aliases ]] && . ~/.aliases
 
+# Travis CI Client
+[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
+
 # Autostart X when logged in on tty1
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 && $EUID -ne 0 ]] && exec startx
