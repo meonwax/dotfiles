@@ -15,17 +15,17 @@ fi
 alsactl -f /var/lib/alsa/asound.state restore
 
 # Set wacom options
-xsetwacom --set "Wacom Intuos S Pen stylus" MapToOutput "DVI-0"
-xsetwacom --set "Wacom Intuos S Pad pad" Button 8 "key Shift Pause"
-xsetwacom --set "Wacom Intuos S Pad pad" Button 9 "key Shift Print"
-xsetwacom --set "Wacom Intuos S Pen stylus" Button 2 "button 16"  # disable stylus buttons
-xsetwacom --set "Wacom Intuos S Pen stylus" Button 3 "button 16"  # disable stylus buttons
+#xsetwacom --set "Wacom Intuos S Pen stylus" MapToOutput "DVI-0"
+#xsetwacom --set "Wacom Intuos S Pad pad" Button 8 "key Shift Pause"
+#xsetwacom --set "Wacom Intuos S Pad pad" Button 9 "key Shift Print"
+#xsetwacom --set "Wacom Intuos S Pen stylus" Button 2 "button 16"  # disable stylus buttons
+#xsetwacom --set "Wacom Intuos S Pen stylus" Button 3 "button 16"  # disable stylus buttons
 
 # Disable mouse thumb buttons by mapping them to 0
-xinput set-button-map 10 1 2 3 4 5 6 7 0 0 10 11 12 13 14 15 16
+xinput set-button-map 8 1 2 3 4 5 6 7 0 0 10 11 12 13 14 15 16
 
 # Disable mouse buttons for page up & down
-xinput disable 11
+xinput disable 9
 
 # Disable insert key
 xmodmap -e 'keycode 118 = '
