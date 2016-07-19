@@ -38,7 +38,6 @@ else
 fi
 
 export EDITOR=vim
-export QT_STYLE_OVERRIDE=gtk
 
 # Check the window size after each command and, if necessary, update the values of LINES and COLUMNS.
 shopt -s checkwinsize
