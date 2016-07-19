@@ -46,5 +46,5 @@ alias tclog='tail -f -n 20 /opt/tomcat/logs/catalina.out'
 
 # Disc burning (more in .bash_functions)
 alias burn-iso='wodim -dao -v dev=/dev/sr0'
-alias burn-cue='cdrdao write -n --driver generic-mmc-raw --device /dev/sr0'
+alias burn-cue='cdrdao write -n --device /dev/sr0'
 alias burn-blank='wodim -v dev=/dev/sr0 -blank=fast'
