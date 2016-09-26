@@ -22,19 +22,18 @@ else
   fi
 
   export JAVA_HOME=/usr/lib/jvm/default
-  export GRAILS_HOME=/opt/grails/grails-2.4.4
   export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
+  export npm_config_prefix=~/.node_modules
   export ANDROID_HOME=~/hdd/android-sdk
   export PYTHONUSERBASE=~/.pip
 
   export PATH=${PATH}:~/bin
-  export PATH=${PATH}:${GRAILS_HOME}/bin
   export PATH=${PATH}:${GEM_HOME}/bin
-  export PATH=${PATH}:~/.node_modules/bin
+  export PATH=${PATH}:${npm_config_prefix=}/bin
   export PATH=${PATH}:${ANDROID_HOME}/platform-tools
   export PATH=${PATH}:${ANDROID_HOME}/tools
   export PATH=${PATH}:~/.composer/vendor/bin
-  export PATH=~/.pip/bin:${PATH}
+  export PATH=${PYTHONUSERBASE}/bin:${PATH}
 fi
 
 export EDITOR=vim
