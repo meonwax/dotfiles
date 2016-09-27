@@ -38,6 +38,9 @@ fi
 
 export EDITOR=vim
 
+# Use qt5ct settings for QT5 applications
+export QT_QPA_PLATFORMTHEME=qt5ct
+
 # Check the window size after each command and, if necessary, update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
