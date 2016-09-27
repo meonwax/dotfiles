@@ -44,4 +44,5 @@ xautolock -time 15 -locker slock &
 xset s 900 900
 
 # Finally start DE/WM
+export DE=xfce
 exec startxfce4
