@@ -8,6 +8,8 @@
             <bookmark name="Seven Inch Soul" url="http://somafm.com/7soul.pls"/>
             <bookmark name="Dub Step Beyond" url="http://somafm.com/dubstep.pls"/>
             <bookmark name="DEF CON Radio" url="http://somafm.com/defcon.pls"/>
+            <bookmark name="cliqhop idm" url="http://somafm.com/cliqhop.pls"/>
+            <bookmark name="The Silent Channel" url="http://somafm.com/silent.pls"/>
         </group>
         <group name="Digitally Imported">
             <bookmark name="BREAKS" url="http://pub1.diforfree.org:8000/di_breaks_hi"/>
@@ -55,5 +57,8 @@
         <bookmark name="Freies Sender Kombinat Hamburg" url="http://stream.fsk-hh.org:8000/fsk.mp3.m3u"/>
         <bookmark name="BBC Radio 6 Music" url="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_q"/>
         <bookmark name="Base FM" url="http://basefm.co.nz/basefm128.m3u"/>
+        <bookmark name="CKUT - Montreal / McGill Campus Community Radio" url="http://icecast.ckut.ca:8000/903fm-192-stereo.m3u"/>
+        <bookmark name="FIP - Radio musicale éclectique du groupe Radio France" url="http://direct.fipradio.fr/live/fip-midfi.mp3"/>
+        <bookmark name="Berlin Community Radio" url="http://berlincommunityradio.out.airtime.pro:8000/berlincommunityradio_a"/>
     </group>
 </bookmarks>
