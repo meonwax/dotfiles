@@ -9,6 +9,14 @@
             <bookmark name="Dub Step Beyond" url="http://somafm.com/dubstep.pls"/>
             <bookmark name="DEF CON Radio" url="http://somafm.com/defcon.pls"/>
         </group>
+        <group name="Digitally Imported">
+            <bookmark name="BREAKS" url="http://pub1.diforfree.org:8000/di_breaks_hi"/>
+            <bookmark name="BASSLINE" url="http://pub1.diforfree.org:8000/di_bassline_hi"/>
+            <bookmark name="MINIMAL" url="http://pub1.diforfree.org:8000/di_minimal_hi"/>
+            <bookmark name="CHILLOUT" url="http://pub1.diforfree.org:8000/di_chillout_hi"/>
+            <bookmark name="CHILLSTEP" url="http://pub1.diforfree.org:8000/di_chillstep_hi"/>
+            <bookmark name="FUTURE GARAGE" url="http://pub1.diforfree.org:8000/di_futuregarage_hi"/>
+        </group>
         <group name="detektor.fm">
             <bookmark name="Wortstream" url="http://detektor.fm/stream/mp3/wort/"/>
             <bookmark name="Musikstream" url="http://detektor.fm/stream/mp3/musik/"/>
