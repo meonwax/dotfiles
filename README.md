@@ -27,3 +27,4 @@ Alternatively, you can just symlink the wanted files:
 - http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles
 - https://github.com/blinry/dotfiles
 - https://github.com/xero/dotfiles
+- https://github.com/alexozer/dotfiles
