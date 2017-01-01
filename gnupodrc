@@ -1,0 +1,3 @@
+# See http://git.savannah.gnu.org/cgit/gnupod.git/tree/doc/gnupodrc.example
+mount = /run/media/fatmike/IPOD
+model = nano_4g
