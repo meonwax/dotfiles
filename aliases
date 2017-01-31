@@ -43,7 +43,6 @@ alias ducks='du -cksh * | sort -rn'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias locate='locate -ir'
 alias vcp='rsync --progress'
-alias tclog='tail -f -n 20 /opt/tomcat/logs/catalina.out'
 
 # Disc burning (more in .bash_functions)
 alias burn-iso='wodim -dao -v dev=/dev/sr0'
