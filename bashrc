@@ -57,7 +57,7 @@ bind 'set visible-stats on'            # Show file info in complete
 # Source other dotfiles
 [[ -f ~/.bash_functions ]] && . ~/.bash_functions
 [[ -f ~/.aliases ]] && . ~/.aliases
-[[ -f ~/.bashrc-etecture ]] && . ~/.bashrc-etecture
+[[ -f ~/.bashrc-local ]] && . ~/.bashrc-local
 
 # Travis CI Client
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
