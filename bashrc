@@ -21,6 +21,9 @@ else
     PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
   fi
 
+  # Travis CI Client
+  [[ -f ~/.travis/travis.sh ]] && source ~/.travis/travis.sh
+
   export JAVA_HOME=/usr/lib/jvm/default
   export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
   export npm_config_prefix=~/.node_modules
@@ -58,9 +61,6 @@ bind 'set visible-stats on'            # Show file info in complete
 [[ -f ~/.bash_functions ]] && . ~/.bash_functions
 [[ -f ~/.aliases ]] && . ~/.aliases
 [[ -f ~/.bashrc-local ]] && . ~/.bashrc-local
-
-# Travis CI Client
-[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 
 # Autostart X when logged in on tty1
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 && $EUID -ne 0 ]] && exec startx
