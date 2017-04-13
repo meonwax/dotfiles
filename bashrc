@@ -57,6 +57,10 @@ bind 'set completion-prefix-display-length 2'
 bind 'set completion-map-case on'
 bind 'set visible-stats on'            # Show file info in complete
 
+# History size
+export HISTSIZE=-1
+export HISTFILESIZE=1024
+
 # Source other dotfiles
 [[ -f ~/.bash_functions ]] && . ~/.bash_functions
 [[ -f ~/.aliases ]] && . ~/.aliases
