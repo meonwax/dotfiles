@@ -37,7 +37,7 @@ alias vi='vim'
 alias iotop='sudo iotop'
 alias nettop='sudo nettop'
 alias diff='icdiff'
-alias unnethack='telnet eu.un.nethack.nu'
+alias unnethack-telnet='telnet eu.un.nethack.nu'
 
 alias ducks='du -cksh * | sort -rn'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
