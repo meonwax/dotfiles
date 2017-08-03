@@ -8,6 +8,7 @@
   tabwidth = 2
   fontdiff = Monospace,8,-1,5,50,0,0,0,0,0
   boldheaders = true
+	spellcheck = false
 [gui]
   editor = geany
   historybrowser = gitk
