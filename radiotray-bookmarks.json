@@ -1,0 +1,284 @@
+[
+  {
+    "group": "SomaFM",
+    "image": null,
+    "stations": [
+      {
+        "image": null,
+        "name": "Secret Agent",
+        "url": "http://somafm.com/secretagent.pls"
+      },
+      {
+        "image": null,
+        "name": "Groove Salad",
+        "url": "http://somafm.com/groovesalad.pls"
+      },
+      {
+        "image": null,
+        "name": "Digitalis",
+        "url": "http://somafm.com/digitalis.pls"
+      },
+      {
+        "image": null,
+        "name": "Underground 80s",
+        "url": "http://somafm.com/u80s.pls"
+      },
+      {
+        "image": null,
+        "name": "Seven Inch Soul",
+        "url": "http://somafm.com/7soul.pls"
+      },
+      {
+        "image": null,
+        "name": "Dub Step Beyond",
+        "url": "http://somafm.com/dubstep.pls"
+      },
+      {
+        "image": null,
+        "name": "DEF CON Radio",
+        "url": "http://somafm.com/defcon.pls"
+      },
+      {
+        "image": null,
+        "name": "cliqhop idm",
+        "url": "http://somafm.com/cliqhop.pls"
+      },
+      {
+        "image": null,
+        "name": "The Silent Channel",
+        "url": "http://somafm.com/silent.pls"
+      }
+    ]
+  },
+  {
+    "group": "Digitally Imported",
+    "image": null,
+    "stations": [
+      {
+        "image": null,
+        "name": "BREAKS",
+        "url": "http://pub1.diforfree.org:8000/di_breaks_hi"
+      },
+      {
+        "image": null,
+        "name": "BASSLINE",
+        "url": "http://pub1.diforfree.org:8000/di_bassline_hi"
+      },
+      {
+        "image": null,
+        "name": "MINIMAL",
+        "url": "http://pub1.diforfree.org:8000/di_minimal_hi"
+      },
+      {
+        "image": null,
+        "name": "CHILLOUT",
+        "url": "http://pub1.diforfree.org:8000/di_chillout_hi"
+      },
+      {
+        "image": null,
+        "name": "CHILLSTEP",
+        "url": "http://pub1.diforfree.org:8000/di_chillstep_hi"
+      },
+      {
+        "image": null,
+        "name": "FUTURE GARAGE",
+        "url": "http://pub1.diforfree.org:8000/di_futuregarage_hi"
+      }
+    ]
+  },
+  {
+    "group": "detektor.fm",
+    "image": null,
+    "stations": [
+      {
+        "image": null,
+        "name": "Wortstream",
+        "url": "http://detektor.fm/stream/mp3/wort/"
+      },
+      {
+        "image": null,
+        "name": "Musikstream",
+        "url": "http://detektor.fm/stream/mp3/musik/"
+      }
+    ]
+  },
+  {
+    "group": "FluxFM",
+    "image": null,
+    "stations": [
+      {
+        "image": null,
+        "name": "Livestream",
+        "url": "http://streams.fluxfm.de/live/mp3-128/audio/"
+      },
+      {
+        "image": null,
+        "name": "FluxKompensator",
+        "url": "http://streams.fluxfm.de/fluxkompensator/mp3-128/audio/"
+      },
+      {
+        "image": null,
+        "name": "Clubsandwich",
+        "url": "http://streams.fluxfm.de/clubsandwich/mp3-128/audio/"
+      },
+      {
+        "image": null,
+        "name": "Ohrspiel",
+        "url": "http://streams.fluxfm.de/ohrspiel/mp3-128/audio/"
+      },
+      {
+        "image": null,
+        "name": "XJAZZ",
+        "url": "http://streams.fluxfm.de/xjazz/mp3-128/audio/"
+      },
+      {
+        "image": null,
+        "name": "Studio 56",
+        "url": "http://streams.fluxfm.de/feierstarter/mp3-128/audio/"
+      },
+      {
+        "image": null,
+        "name": "FluxForward",
+        "url": "http://streams.fluxfm.de/forward/mp3-128/audio/"
+      },
+      {
+        "image": null,
+        "name": "Electronic Beats",
+        "url": "http://streams.fluxfm.de/electronicbeats/mp3-128/audio/"
+      },
+      {
+        "image": null,
+        "name": "ElektroFlux",
+        "url": "http://streams.fluxfm.de/electro/mp3-128/audio/"
+      },
+      {
+        "image": null,
+        "name": "FluxLounge",
+        "url": "http://streams.fluxfm.de/lounge/mp3-128/audio/"
+      }
+    ]
+  },
+  {
+    "group": "SPORT1 fm",
+    "image": null,
+    "stations": [
+      {
+        "image": null,
+        "name": "Konferenz",
+        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_24_7.mp3"
+      },
+      {
+        "image": null,
+        "name": "Einzelspiel 1",
+        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel1.mp3"
+      },
+      {
+        "image": null,
+        "name": "Einzelspiel 2",
+        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel2.mp3"
+      },
+      {
+        "image": null,
+        "name": "Einzelspiel 3",
+        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel3.mp3"
+      },
+      {
+        "image": null,
+        "name": "Einzelspiel 4",
+        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel4.mp3"
+      },
+      {
+        "image": null,
+        "name": "Einzelspiel 5",
+        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel5.mp3"
+      },
+      {
+        "image": null,
+        "name": "Einzelspiel 6",
+        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel6.mp3"
+      }
+    ]
+  },
+  {
+    "group": "News",
+    "image": null,
+    "stations": [
+      {
+        "image": null,
+        "name": "B5 aktuell",
+        "url": "http://streams.br.de/b5aktuell_2.m3u"
+      },
+      {
+        "image": null,
+        "name": "hr-info",
+        "url": "http://metafiles.gl-systemhaus.de/hr/hrinfo_2.m3u"
+      },
+      {
+        "image": null,
+        "name": "Deutschlandfunk",
+        "url": "http://www.deutschlandradio.de/streaming/dlf.m3u"
+      },
+      {
+        "image": null,
+        "name": "Deutschlandfunk Kultur",
+        "url": "http://www.deutschlandradio.de/streaming/dkultur.m3u"
+      },
+      {
+        "image": null,
+        "name": "Deutschlandfunk Nova",
+        "url": "http://prelaunch.dradio.de/streaming/dradiowissen.m3u"
+      }
+    ]
+  },
+  {
+    "group": "root",
+    "image": null,
+    "stations": [
+      {
+        "image": null,
+        "name": "NSB Radio",
+        "url": "http://nsbradio.co.uk/listen128k.pls"
+      },
+      {
+        "image": null,
+        "name": "Radio Nova",
+        "url": "http://broadcast.infomaniak.net/radionova-high.mp3"
+      },
+      {
+        "image": null,
+        "name": "radio x Frankfurt",
+        "url": "http://www.radiox.de/media/radiox.m3u"
+      },
+      {
+        "image": null,
+        "name": "Freies Sender Kombinat Hamburg",
+        "url": "http://stream.fsk-hh.org:8000/fsk.mp3.m3u"
+      },
+      {
+        "image": null,
+        "name": "BBC Radio 6 Music",
+        "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_q"
+      },
+      {
+        "image": null,
+        "name": "Base FM",
+        "url": "http://basefm.co.nz/basefm128.m3u"
+      },
+      {
+        "image": null,
+        "name": "CKUT - Montreal / McGill Campus Community Radio",
+        "url": "http://icecast.ckut.ca:8000/903fm-192-stereo.m3u"
+      },
+      {
+        "image": null,
+        "name": "FIP - Radio musicale éclectique du groupe Radio France",
+        "url": "http://direct.fipradio.fr/live/fip-midfi.mp3"
+      },
+      {
+        "image": null,
+        "name": "Berlin Community Radio",
+        "url": "http://berlincommunityradio.out.airtime.pro:8000/berlincommunityradio_a"
+      }
+    ]
+  }
+]
