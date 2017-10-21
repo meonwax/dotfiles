@@ -28,6 +28,10 @@ function c() {
     cd "$1" && ls -lh
 }
 
+function ed() {
+  geany "$1" &
+}
+
 # Update system time from ntp server and set hardware clock
 function time-sync() {
     sudo ntpdate ptbtime1.ptb.de ptbtime2.ptb.de ptbtime3.ptb.de 0.de.pool.ntp.org
