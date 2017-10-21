@@ -163,7 +163,7 @@ function burn-mp3 {
     echo
 
     while true; do
-	cdrdao write -n toc
+	cdrdao write -n --device $device toc
 	if [ "$?" == "1" ] ; then
 	    echo -e -n "\nBurning failed. "
 	    echo "retry? [y,n]"
