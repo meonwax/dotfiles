@@ -11,8 +11,11 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
     unset f
 fi
 
-# Restore alsa mixer state
-alsactl -f /var/lib/alsa/asound.state restore
+# Set screen timeout
+xset s off dpms 600 600 600
+
+# Auto lock screen
+#xautolock -time 15 -locker slock &
 
 # Disable insert key
 xmodmap -e 'keycode 118 = '
@@ -22,13 +25,6 @@ xmodmap -e 'keycode 66 = '
 
 # Activate numlock
 numlockx on
-
-# Dual monitor setup for radeon
-#xrandr --output DVI-0 --auto --output DVI-1 --auto --right-of DVI-0
-
-# Automaticaly lock screen after 15 minutes inactivity and turn off monitors
-xautolock -time 15 -locker slock &
-xset s 900 900
 
 # Finally start DE/WM
 export DE=xfce
