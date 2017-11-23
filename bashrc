@@ -59,7 +59,7 @@ bind 'set visible-stats on'            # Show file info in complete
 
 # History size
 export HISTSIZE=-1
-export HISTFILESIZE=1024
+export HISTFILESIZE=4096
 
 # Source other dotfiles
 [[ -f ~/.bash_functions ]] && . ~/.bash_functions
