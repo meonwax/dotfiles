@@ -1,0 +1,14 @@
+xkb_keymap {
+  xkb_keycodes  {
+    include "evdev+aliases(qwertz)"
+    // Disable insert key
+    <NONE> = 118; 
+  };
+  xkb_types     { include "complete"	};
+  xkb_compat    { include "complete"	};
+  xkb_symbols   {
+    // Disable dead keys, caps lock
+    include "pc+de(nodeadkeys)+inet(evdev)+ctrl(nocaps)"
+  };
+  xkb_geometry  { include "pc(pc105)"	};
+};

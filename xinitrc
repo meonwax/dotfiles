@@ -17,11 +17,8 @@ xset s off dpms 600 600 600
 # Auto lock screen
 #xautolock -time 15 -locker slock &
 
-# Disable insert key
-xmodmap -e 'keycode 118 = '
-
-# Disable CapsLock
-xmodmap -e 'keycode 66 = '
+# Load xkb keymap
+test -f ~/.keymap.xkb && xkbcomp -w 0 ~/.keymap.xkb $DISPLAY
 
 # Activate numlock
 numlockx on
