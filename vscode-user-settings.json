@@ -4,6 +4,9 @@
     "editor.tabSize": 2,
     "editor.renderWhitespace": "boundary",
 
+    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.cursorStyle": "underline",
+
     "pixelbyte.love2d.path": "/usr/bin/love",
 
     "telemetry.enableCrashReporter": false,
