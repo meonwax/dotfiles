@@ -26,8 +26,7 @@ alias pacremovenouse='sudo nice pacman -Rscn $(pacman -Qtdq)'
 # Compiling
 alias makepkg='nice makepkg'
 alias yaourt='nice yaourt'
-alias aurup='nice aurget -Su --noedit --noconfirm --builddir /tmp/aur --nodiscard'
-alias yaurup='nice yaourt -Sbu --aur'
+alias aurup='nice yaourt -Syua --noconfirm'
 alias make='nice make'
 
 alias ls='ls --color=auto --group-directories-first -h'
@@ -39,6 +38,7 @@ alias nettop='sudo nettop'
 alias diff='icdiff'
 alias t='thunar . &'
 alias unnethack-telnet='telnet eu.un.nethack.nu'
+alias cola='LANG=en_US.utf8 git-cola &'
 
 alias ducks='du -cksh * | sort -rn'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
