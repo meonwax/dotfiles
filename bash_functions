@@ -8,6 +8,10 @@ function md5() {
     echo -n "$1" | md5sum | awk '{print $1}'
 }
 
+function t() {
+  thunar "$1" &
+}
+
 function hash-compare() {
     if [ "$#" -ne 2 ]; then
 	echo "Please supply two files to diff"

@@ -36,7 +36,6 @@ alias vi='vim'
 alias iotop='sudo iotop'
 alias nettop='sudo nettop'
 alias diff='icdiff'
-alias t='thunar . &'
 alias unnethack-telnet='telnet eu.un.nethack.nu'
 alias cola='LANG=en_US.utf8 git-cola &'
 
