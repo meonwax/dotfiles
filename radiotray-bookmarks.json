@@ -241,6 +241,11 @@
       },
       {
         "image": null,
+        "name": "Bassdrive",
+        "url": "http://bassdrive.com/bassdrive.m3u"
+      },
+      {
+        "image": null,
         "name": "Radio Nova",
         "url": "http://broadcast.infomaniak.net/radionova-high.mp3"
       },
