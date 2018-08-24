@@ -123,47 +123,6 @@
     ]
   },
   {
-    "group": "SPORT1 fm",
-    "image": null,
-    "stations": [
-      {
-        "image": null,
-        "name": "Konferenz",
-        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_24_7.mp3"
-      },
-      {
-        "image": null,
-        "name": "Einzelspiel 1",
-        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel1.mp3"
-      },
-      {
-        "image": null,
-        "name": "Einzelspiel 2",
-        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel2.mp3"
-      },
-      {
-        "image": null,
-        "name": "Einzelspiel 3",
-        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel3.mp3"
-      },
-      {
-        "image": null,
-        "name": "Einzelspiel 4",
-        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel4.mp3"
-      },
-      {
-        "image": null,
-        "name": "Einzelspiel 5",
-        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel5.mp3"
-      },
-      {
-        "image": null,
-        "name": "Einzelspiel 6",
-        "url": "http://stream.sport1.fm/api/livestream-redirect/SPORT1FM_Einzel6.mp3"
-      }
-    ]
-  },
-  {
     "group": "News",
     "image": null,
     "stations": [
