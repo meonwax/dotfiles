@@ -51,42 +51,6 @@
     ]
   },
   {
-    "group": "Digitally Imported",
-    "image": null,
-    "stations": [
-      {
-        "image": null,
-        "name": "BREAKS",
-        "url": "http://pub1.diforfree.org:8000/di_breaks_hi"
-      },
-      {
-        "image": null,
-        "name": "BASSLINE",
-        "url": "http://pub1.diforfree.org:8000/di_bassline_hi"
-      },
-      {
-        "image": null,
-        "name": "MINIMAL",
-        "url": "http://pub1.diforfree.org:8000/di_minimal_hi"
-      },
-      {
-        "image": null,
-        "name": "CHILLOUT",
-        "url": "http://pub1.diforfree.org:8000/di_chillout_hi"
-      },
-      {
-        "image": null,
-        "name": "CHILLSTEP",
-        "url": "http://pub1.diforfree.org:8000/di_chillstep_hi"
-      },
-      {
-        "image": null,
-        "name": "FUTURE GARAGE",
-        "url": "http://pub1.diforfree.org:8000/di_futuregarage_hi"
-      }
-    ]
-  },
-  {
     "group": "detektor.fm",
     "image": null,
     "stations": [
