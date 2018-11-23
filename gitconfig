@@ -19,3 +19,5 @@
   tool = meld
 [alias]
   ls = log --graph --format=format:'%C(auto)%h - (%ar) %s - %cn %d' --abbrev-commit
+[credential]
+	helper = store
