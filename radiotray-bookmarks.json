@@ -190,7 +190,7 @@
       {
         "image": null,
         "name": "Base FM",
-        "url": "http://basefm.co.nz/basefm128.m3u"
+        "url": "http://stream.basefm.co.nz:8000/BaseHi"
       },
       {
         "image": null,
