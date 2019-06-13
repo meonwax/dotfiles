@@ -36,7 +36,7 @@ alias vi='vim'
 alias iotop='sudo iotop'
 alias nettop='sudo nettop'
 alias diff='icdiff'
-alias unnethack-telnet='telnet eu.un.nethack.nu'
+alias nethack='ssh nethack@ascension.run'
 alias cola='LANG=en_US.utf8 git-cola &'
 
 alias ducks='du -cksh * | sort -rn'
