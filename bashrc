@@ -29,6 +29,7 @@ else
   export npm_config_prefix=~/.node_modules
   export ANDROID_HOME=~/hdd/android-sdk
   export PYTHONUSERBASE=~/.pip
+  export GOPATH=$HOME/workspace/go
 
   export PATH=${PATH}:~/bin
   export PATH=${PATH}:${GEM_HOME}/bin
