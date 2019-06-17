@@ -25,8 +25,7 @@ alias pacremovenouse='sudo nice pacman -Rscn $(pacman -Qtdq)'
 
 # Compiling
 alias makepkg='nice makepkg'
-alias yaourt='nice yaourt'
-alias aurup='nice yaourt -Syua --noconfirm'
+alias aurup='nice yay -Syu --devel --noconfirm'
 alias make='nice make'
 
 alias ls='ls --color=auto --group-directories-first -h'
