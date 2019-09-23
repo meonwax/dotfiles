@@ -8,17 +8,24 @@ if (( $EUID == 0 )); then
   PS1='\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
   # Normal user
+
+  # Kubernetes prompt
+  source '/opt/kube-ps1/kube-ps1.sh'
+  export KUBE_PS1_NS_ENABLE=false
+  export KUBE_PS1_SYMBOL_ENABLE=false
+  export KUBE_PS1_CTX_COLOR=magenta
+
   # Enable Git prompt script
   if [ -f /usr/share/git/completion/git-prompt.sh ]; then
     source /usr/share/git/completion/git-prompt.sh
-    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[1;92m\]$(__git_ps1 " (%s)")\[\033[0m\] $ '
+    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[1;92m\]$(__git_ps1 " (%s)")\[\033[0m\]$(kube_ps1) $ '
     # Set extra details for the Git prompt
     export GIT_PS1_SHOWDIRTYSTATE=1
     export GIT_PS1_SHOWSTASHSTATE=1
     export GIT_PS1_SHOWUNTRACKEDFILES=1
     export GIT_PS1_SHOWUPSTREAM=auto
   else
-    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(kube_ps1) $ '
   fi
 
   # Travis CI Client
