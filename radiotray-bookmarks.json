@@ -206,6 +206,11 @@
         "image": null,
         "name": "Berlin Community Radio",
         "url": "http://berlincommunityradio.out.airtime.pro:8000/berlincommunityradio_a"
+      },
+      {
+        "image": null,
+        "name": "EintrachtFM",
+        "url": "http://eintrachtfm.ice.infomaniak.ch/eintrachtfm-128.aac"
       }
     ]
   }
