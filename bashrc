@@ -45,6 +45,7 @@ else
   export PATH=${PATH}:${ANDROID_HOME}/tools
   export PATH=${PATH}:~/.composer/vendor/bin
   export PATH=${PYTHONUSERBASE}/bin:${PATH}
+  export PATH=${PATH}:${GOPATH}/bin
 fi
 
 export EDITOR=vim
