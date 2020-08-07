@@ -209,6 +209,11 @@
       },
       {
         "image": null,
+        "name": "Kane FM",
+        "url": "http://stream.kanefm.com:1037/;stream"
+      },
+      {
+        "image": null,
         "name": "EintrachtFM",
         "url": "http://eintrachtfm.ice.infomaniak.ch/eintrachtfm-128.aac"
       }
