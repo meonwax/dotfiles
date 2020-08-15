@@ -38,7 +38,7 @@ alias nethack='ssh nethack@ascension.run'
 alias cola='LANG=en_US.utf8 git-cola &'
 
 alias ducks='du -cksh * | sort -rn'
-alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias myip='dig @resolver1.opendns.com ANY myip.opendns.com +short -4'
 alias locate='locate -ir'
 alias vcp='rsync --progress'
 
