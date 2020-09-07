@@ -10,10 +10,12 @@ else
   # Normal user
 
   # Kubernetes prompt
-  source '/opt/kube-ps1/kube-ps1.sh'
-  export KUBE_PS1_NS_ENABLE=false
-  export KUBE_PS1_SYMBOL_ENABLE=false
-  export KUBE_PS1_CTX_COLOR=magenta
+  if [ -f /opt/kube-ps1/kube-ps1.sh ]; then
+    source '/opt/kube-ps1/kube-ps1.sh'
+    export KUBE_PS1_NS_ENABLE=false
+    export KUBE_PS1_SYMBOL_ENABLE=false
+    export KUBE_PS1_CTX_COLOR=magenta
+  fi
 
   # Enable Git prompt script
   if [ -f /usr/share/git/completion/git-prompt.sh ]; then
@@ -31,15 +33,19 @@ else
   # Travis CI Client
   [[ -f ~/.travis/travis.sh ]] && source ~/.travis/travis.sh
 
+  # Ruby
+  if command -v ruby &> /dev/null; then
+    export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
+    export PATH=${PATH}:${GEM_HOME}/bin
+  fi
+
   export JAVA_HOME=/usr/lib/jvm/default
-  export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
   export npm_config_prefix=~/.node_modules
   export ANDROID_HOME=~/hdd/android-sdk
   export PYTHONUSERBASE=~/.pip
   export GOPATH=$HOME/workspace/go
 
   export PATH=${PATH}:~/bin
-  export PATH=${PATH}:${GEM_HOME}/bin
   export PATH=${PATH}:${npm_config_prefix=}/bin
   export PATH=${PATH}:${ANDROID_HOME}/platform-tools
   export PATH=${PATH}:${ANDROID_HOME}/tools
