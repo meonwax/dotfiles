@@ -42,11 +42,6 @@
         "image": null,
         "name": "cliqhop idm",
         "url": "http://somafm.com/cliqhop.pls"
-      },
-      {
-        "image": null,
-        "name": "The Silent Channel",
-        "url": "http://somafm.com/silent.pls"
       }
     ]
   },
@@ -123,6 +118,88 @@
     ]
   },
   {
+    "group": "Nova",
+    "image": null,
+    "stations": [
+      {
+        "image": null,
+        "name": "Radio Nova",
+        "url": "https://novazz.ice.infomaniak.ch/novazz-128.mp3"
+      },
+      {
+        "image": null,
+        "name": "Nouvo Nova",
+        "url": "https://nova-nouvo.ice.infomaniak.ch/nova-nouvo-128.mp3"
+      },
+      {
+        "image": null,
+        "name": "Danse",
+        "url": "https://nova-dance.ice.infomaniak.ch/nova-dance-128.mp3"
+      },
+      {
+        "image": null,
+        "name": "La Nuit",
+        "url": "https://nova-ln.ice.infomaniak.ch/nova-ln-128.mp3"
+      },
+      {
+        "image": null,
+        "name": "Classics",
+        "url": "https://nova-vnt.ice.infomaniak.ch/nova-vnt-128.mp3"
+      }
+    ]
+  },
+  {
+    "group": "FIP",
+    "image": null,
+    "stations": [
+      {
+        "image": null,
+        "name": "FIP",
+        "url": "https://stream.radiofrance.fr/fip/fip_hifi.m3u8"
+      },
+      {
+        "image": null,
+        "name": "Rock",
+        "url": "https://stream.radiofrance.fr/fiprock/fiprock_hifi.m3u8"
+      },
+      {
+        "image": null,
+        "name": "Jazz",
+        "url": "https://stream.radiofrance.fr/fipjazz/fipjazz_hifi.m3u8"
+      },
+      {
+        "image": null,
+        "name": "Groove",
+        "url": "https://stream.radiofrance.fr/fipgroove/fipgroove_hifi.m3u8"
+      },
+      {
+        "image": null,
+        "name": "Pop",
+        "url": "https://stream.radiofrance.fr/fippop/fippop_hifi.m3u8"
+      },
+      {
+        "image": null,
+        "name": "Electro",
+        "url": "https://stream.radiofrance.fr/fipelectro/fipelectro_hifi.m3u8"
+      },
+      {
+        "image": null,
+        "name": "Monde",
+        "url": "https://stream.radiofrance.fr/fipworld/fipworld_hifi.m3u8"
+      },
+      {
+        "image": null,
+        "name": "Reggae",
+        "url": "https://stream.radiofrance.fr/fipreggae/fipreggae_hifi.m3u8"
+      },
+      {
+        "image": null,
+        "name": "Nouveautés",
+        "url": "https://stream.radiofrance.fr/fipnouveautes/fipnouveautes_hifi.m3u8"
+      }
+    ]
+  },
+  {
     "group": "News",
     "image": null,
     "stations": [
@@ -169,18 +246,8 @@
       },
       {
         "image": null,
-        "name": "Radio Nova",
-        "url": "http://broadcast.infomaniak.net/radionova-high.mp3"
-      },
-      {
-        "image": null,
         "name": "radio x Frankfurt",
         "url": "http://www.radiox.de/media/radiox.m3u"
-      },
-      {
-        "image": null,
-        "name": "Freies Sender Kombinat Hamburg",
-        "url": "http://stream.fsk-hh.org:8000/fsk.mp3.m3u"
       },
       {
         "image": null,
@@ -196,16 +263,6 @@
         "image": null,
         "name": "CKUT - Montreal / McGill Campus Community Radio",
         "url": "http://icecast.ckut.ca:8000/903fm-192-stereo.m3u"
-      },
-      {
-        "image": null,
-        "name": "FIP - Radio musicale éclectique du groupe Radio France",
-        "url": "http://direct.fipradio.fr/live/fip-midfi.mp3"
-      },
-      {
-        "image": null,
-        "name": "Berlin Community Radio",
-        "url": "http://berlincommunityradio.out.airtime.pro:8000/berlincommunityradio_a"
       },
       {
         "image": null,
