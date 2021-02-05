@@ -8,8 +8,8 @@
   tabwidth = 2
   fontdiff = Monospace,8,-1,5,50,0,0,0,0,0
   boldheaders = true
-	spellcheck = false
-	blameviewer = git gui blame
+  spellcheck = false
+  blameviewer = git gui blame
 [gui]
   editor = geany
   historybrowser = gitk
@@ -20,6 +20,8 @@
 [alias]
   ls = log --graph --format=format:'%C(auto)%h - (%ar) %s - %cn %d' --abbrev-commit
 [credential]
-	helper = store
+  helper = store
 [pull]
-	ff = only
+  ff = only
+[include]
+  path = ~/.gitconfig-local
