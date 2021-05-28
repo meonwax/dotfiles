@@ -23,6 +23,11 @@ test -f ~/.keymap.xkb && xkbcomp -w 0 ~/.keymap.xkb $DISPLAY
 # Activate numlock
 numlockx on
 
-# Finally start DE/WM
+# Start XFCE
 export DE=xfce
 exec startxfce4
+
+# Start Gnome
+#export XDG_SESSION_TYPE=x11
+#export GDK_BACKEND=x11
+#exec gnome-session
