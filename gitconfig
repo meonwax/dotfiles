@@ -6,10 +6,11 @@
   tool = meld
 [cola]
   tabwidth = 2
-  fontdiff = Monospace,8,-1,5,50,0,0,0,0,0
+  fontdiff = FiraCode Nerd Font,10,-1,5,50,0,0,0,0,0
   boldheaders = true
   spellcheck = false
   blameviewer = git gui blame
+  expandtab = true
 [gui]
   editor = geany
   historybrowser = gitk
@@ -26,4 +27,4 @@
 [include]
   path = ~/.gitconfig-local
 [init]
-	defaultBranch = main
+  defaultBranch = main
