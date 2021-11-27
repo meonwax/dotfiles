@@ -52,12 +52,12 @@
       {
         "image": null,
         "name": "Wortstream",
-        "url": "http://detektor.fm/stream/mp3/wort/"
+        "url": "https://detektor.fm/stream/mp3/wort/"
       },
       {
         "image": null,
         "name": "Musikstream",
-        "url": "http://detektor.fm/stream/mp3/musik/"
+        "url": "https://detektor.fm/stream/mp3/musik/"
       }
     ]
   },
@@ -68,52 +68,32 @@
       {
         "image": null,
         "name": "Livestream",
-        "url": "http://streams.fluxfm.de/live/mp3-128/audio/"
+        "url": "https://streams.fluxfm.de/live/mp3-128/audio/"
       },
       {
         "image": null,
         "name": "FluxKompensator",
-        "url": "http://streams.fluxfm.de/fluxkompensator/mp3-128/audio/"
+        "url": "https://streams.fluxfm.de/fluxkompensator/mp3-128/audio/"
       },
       {
         "image": null,
         "name": "Clubsandwich",
-        "url": "http://streams.fluxfm.de/clubsandwich/mp3-128/audio/"
+        "url": "https://streams.fluxfm.de/clubsandwich/mp3-128/audio/"
       },
       {
         "image": null,
         "name": "Ohrspiel",
-        "url": "http://streams.fluxfm.de/ohrspiel/mp3-128/audio/"
+        "url": "https://streams.fluxfm.de/ohrspiel/mp3-128/audio/"
       },
       {
         "image": null,
         "name": "XJAZZ",
-        "url": "http://streams.fluxfm.de/xjazz/mp3-128/audio/"
-      },
-      {
-        "image": null,
-        "name": "Studio 56",
-        "url": "http://streams.fluxfm.de/feierstarter/mp3-128/audio/"
-      },
-      {
-        "image": null,
-        "name": "FluxForward",
-        "url": "http://streams.fluxfm.de/forward/mp3-128/audio/"
-      },
-      {
-        "image": null,
-        "name": "Electronic Beats",
-        "url": "http://streams.fluxfm.de/electronicbeats/mp3-128/audio/"
-      },
-      {
-        "image": null,
-        "name": "ElektroFlux",
-        "url": "http://streams.fluxfm.de/electro/mp3-128/audio/"
+        "url": "https://streams.fluxfm.de/xjazz/mp3-128/audio/"
       },
       {
         "image": null,
         "name": "FluxLounge",
-        "url": "http://streams.fluxfm.de/lounge/mp3-128/audio/"
+        "url": "https://streams.fluxfm.de/lounge/mp3-128/audio/"
       }
     ]
   },
@@ -205,28 +185,28 @@
     "stations": [
       {
         "image": null,
-        "name": "B5 aktuell",
-        "url": "http://streams.br.de/b5aktuell_2.m3u"
+        "name": "B24",
+        "url": "https://streams.br.de/br24_2.m3u"
       },
       {
         "image": null,
-        "name": "hr-info",
-        "url": "http://metafiles.gl-systemhaus.de/hr/hrinfo_2.m3u"
+        "name": "hr-iNFO",
+        "url": "https://metafiles.gl-systemhaus.de/hr/hrinfo_2.m3u"
       },
       {
         "image": null,
         "name": "Deutschlandfunk",
-        "url": "http://www.deutschlandradio.de/streaming/dlf.m3u"
+        "url": "https://www.deutschlandradio.de/streaming/dlf.m3u"
       },
       {
         "image": null,
         "name": "Deutschlandfunk Kultur",
-        "url": "http://www.deutschlandradio.de/streaming/dkultur.m3u"
+        "url": "https://www.deutschlandradio.de/streaming/dkultur.m3u"
       },
       {
         "image": null,
         "name": "Deutschlandfunk Nova",
-        "url": "http://st03.dlf.de/dlf/03/128/mp3/stream.mp3"
+        "url": "https://st03.dlf.de/dlf/03/128/mp3/stream.mp3"
       }
     ]
   },
@@ -242,22 +222,17 @@
       {
         "image": null,
         "name": "Bassdrive",
-        "url": "http://bassdrive.com/bassdrive.m3u"
-      },
-      {
-        "image": null,
-        "name": "radio x Frankfurt",
-        "url": "http://www.radiox.de/media/radiox.m3u"
+        "url": "https://bassdrive.com/bassdrive.m3u"
       },
       {
         "image": null,
         "name": "BBC Radio 6 Music",
-        "url": "http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_6music/format/pls.pls"
+        "url": "https://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_6music/format/pls.pls"
       },
       {
         "image": null,
-        "name": "ORF FM4",
-        "url": "https://orf-live.ors-shoutcast.at/fm4-q2a"
+        "name": "Kane FM",
+        "url": "http://stream.kanefm.com:1037/;stream"
       },
       {
         "image": null,
@@ -266,13 +241,23 @@
       },
       {
         "image": null,
-        "name": "CKUT - Montreal / McGill Campus Community Radio",
-        "url": "http://icecast.ckut.ca:8000/903fm-192-stereo.m3u"
+        "name": "ByteFM",
+        "url": "https://www.byte.fm/stream/bytefm.m3u"
       },
       {
         "image": null,
-        "name": "Kane FM",
-        "url": "http://stream.kanefm.com:1037/;stream"
+        "name": "radio x Frankfurt",
+        "url": "http://www.radiox.de/media/radiox.m3u"
+      },
+      {
+        "image": null,
+        "name": "ORF FM4",
+        "url": "https://orf-live.ors-shoutcast.at/fm4-q2a"
+      },
+      {
+        "image": null,
+        "name": "CKUT",
+        "url": "https://delray.ckut.ca:8001/903fm-128-stereo"
       },
       {
         "image": null,
