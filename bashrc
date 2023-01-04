@@ -84,8 +84,3 @@ export HISTFILESIZE=4096
 # Autostart X when logged in on tty1
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 && $EUID -ne 0 ]] && exec startx
 
-# Use fish as interactive shell
-if [[ $(ps --no-header --pid=$PPID --format=cmd) != "fish" ]]
-then
-	exec fish
-fi
