@@ -216,8 +216,18 @@
     "stations": [
       {
         "image": null,
-        "name": "NSB Radio",
-        "url": "https://nsbradio.co.uk/listen.pls"
+        "name": "ByteFM",
+        "url": "https://www.byte.fm/stream/bytefm.m3u"
+      },
+      {
+        "image": null,
+        "name": "Kane FM",
+        "url": "http://stream.kanefm.com:1037/;stream"
+      },
+      {
+        "image": null,
+        "name": "radio x Frankfurt",
+        "url": "http://www.radiox.de/media/radiox.m3u"
       },
       {
         "image": null,
@@ -231,8 +241,8 @@
       },
       {
         "image": null,
-        "name": "Kane FM",
-        "url": "http://stream.kanefm.com:1037/;stream"
+        "name": "ORF FM4",
+        "url": "https://orf-live.ors-shoutcast.at/fm4-q2a"
       },
       {
         "image": null,
@@ -241,28 +251,8 @@
       },
       {
         "image": null,
-        "name": "ByteFM",
-        "url": "https://www.byte.fm/stream/bytefm.m3u"
-      },
-      {
-        "image": null,
-        "name": "radio x Frankfurt",
-        "url": "http://www.radiox.de/media/radiox.m3u"
-      },
-      {
-        "image": null,
-        "name": "ORF FM4",
-        "url": "https://orf-live.ors-shoutcast.at/fm4-q2a"
-      },
-      {
-        "image": null,
         "name": "CKUT",
         "url": "https://delray.ckut.ca:8001/903fm-128-stereo"
-      },
-      {
-        "image": null,
-        "name": "EintrachtFM",
-        "url": "http://eintrachtfm.ice.infomaniak.ch/eintrachtfm-128.aac"
       }
     ]
   }
