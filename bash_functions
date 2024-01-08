@@ -185,3 +185,7 @@ function burn-mp3 {
 	fi
     done
 }
+
+weather() {
+  curl https://wttr.in/${1:-Frankfurt}
+}

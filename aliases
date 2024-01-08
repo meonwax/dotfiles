@@ -25,10 +25,11 @@ alias pacremovenouse='sudo nice pacman -Rscn $(pacman -Qtdq)'
 
 # Compiling
 alias makepkg='nice makepkg'
-alias aurup='nice yay -Syu --devel --noconfirm'
+alias aurup='nice yay -Syu --devel --removemake --noconfirm'
 alias make='nice make'
 
-alias ls='ls --color=auto --group-directories-first -h'
+#alias ls='ls --color=auto --group-directories-first -h'
+alias ls='lsd'
 alias grep='grep --color=auto'
 alias man='man -P most'
 alias vi='vim'
