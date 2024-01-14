@@ -15,33 +15,40 @@ alias chown='chown --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
 
-# Pacman
+# Arch
 alias pacman='nice pacman'
 alias pacup='sudo nice pacman -Syu'
 alias pacin='sudo nice pacman -S'
 alias pacout='sudo nice pacman -Rncs'
 alias pacshownouse='nice pacman -Qdt'
 alias pacremovenouse='sudo nice pacman -Rscn $(pacman -Qtdq)'
+alias aurup='nice yay -Syu --devel --removemake --noconfirm'
+alias aurget='nice yay --getpkgbuild --aur'
 
 # Compiling
 alias makepkg='nice makepkg'
-alias aurup='nice yay -Syu --devel --noconfirm'
 alias make='nice make'
 
-alias ls='ls --color=auto --group-directories-first -h'
 alias grep='grep --color=auto'
-alias man='man -P most'
 alias vi='vim'
 alias iotop='sudo iotop'
 alias nethack-online='ssh nethack@eu.hardfought.org'
 alias cola='LANG=en_US.utf8 git-cola &'
-
 alias ducks='du -cksh * | sort -rn'
 alias myip='dig @resolver1.opendns.com ANY myip.opendns.com +short -4'
 alias locate='locate -ir'
 alias vcp='rsync --progress'
 
-# Disc burning (more in .bash_functions)
-alias burn-iso='wodim -dao -v dev=/dev/sr0'
-alias burn-cue='cdrdao write -n --device /dev/sr0'
-alias burn-blank='wodim -v dev=/dev/sr0 -blank=fast'
+if [[ -x /usr/bin/icdiff ]]; then
+  alias diff='icdiff'
+fi
+
+if [[ -x /usr/bin/lsd ]]; then
+  alias ls='lsd'
+else
+  alias ls='ls --color=auto --group-directories-first -h'
+fi
+
+if [[ -x /usr/bin/most ]]; then
+  alias man='man -P most'
+fi

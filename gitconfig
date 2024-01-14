@@ -2,6 +2,7 @@
   ui = auto
 [push]
   default = simple
+  autoSetupRemote = true
 [diff]
   tool = meld
 [cola]
@@ -11,6 +12,7 @@
   spellcheck = false
   blameviewer = git gui blame
   expandtab = true
+	startupmode = folder
 [gui]
   editor = geany
   historybrowser = gitk

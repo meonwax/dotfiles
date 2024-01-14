@@ -6,3 +6,10 @@ set expandtab             " Insert spaces when tab key is pressed
 set tabstop=2             " Number of spaces for tab
 set shiftwidth=2          " Automatically indent next lines
 map Q <Nop>               " Disable the Ex mode key
+
+" Gruvbox color theme
+"if has('termguicolors')
+"  set termguicolors
+"endif
+autocmd VimEnter * hi Normal ctermbg=none
+colorscheme gruvbox
