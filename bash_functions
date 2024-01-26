@@ -46,6 +46,14 @@ weather() {
   curl https://wttr.in/${1:-Frankfurt}
 }
 
+wifi() {
+    if [ "$1" = "ls" ]; then
+        nmcli device wifi list
+    else
+        nmcli dev wifi show-password
+    fi
+}
+
 function transfer() {
   # check arguments
   if [ $# -eq 0 ]; then
