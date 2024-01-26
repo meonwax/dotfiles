@@ -1,0 +1,17 @@
+{
+    "editor.fontFamily": "'FiraCode Nerd Font Regular', monospace",
+    // "editor.fontFamily": "'Monaspace Neon', monospace",
+    // "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss07', 'ss08'",
+    "editor.fontSize": 13,
+    "editor.renderWhitespace": "boundary",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.scrollback": 99999999,
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "telemetry.telemetryLevel": "off",
+    "gitlens.telemetry.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    }
+}

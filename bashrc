@@ -9,33 +9,16 @@ if (($EUID == 0)); then
 else
   # Normal user
 
-  # Kubernetes prompt
-  #  if [ -f /opt/kube-ps1/kube-ps1.sh ]; then
-  #    source '/opt/kube-ps1/kube-ps1.sh'
-  #    export KUBE_PS1_NS_ENABLE=false
-  #    export KUBE_PS1_SYMBOL_ENABLE=false
-  #    export KUBE_PS1_CTX_COLOR=magenta
-  #  fi
-
-  # Enable Git prompt script
-  #  if [ -f /usr/share/git/completion/git-prompt.sh ]; then
-  #    source /usr/share/git/completion/git-prompt.sh
-  #    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[1;92m\]$(__git_ps1 " (%s)")\[\033[0m\]$(kube_ps1) $ '
-  #    # Set extra details for the Git prompt
-  #    export GIT_PS1_SHOWDIRTYSTATE=1
-  #    export GIT_PS1_SHOWSTASHSTATE=1
-  #    export GIT_PS1_SHOWUNTRACKEDFILES=1
-  #    export GIT_PS1_SHOWUPSTREAM=auto
-  #  else
-  #    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(kube_ps1) $ '
-  #  fi
-
-  function _update_ps1() {
-    PS1=$(powerline-shell $?)
-  }
-
-  if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
-    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+  # Powerline shell (not for SSH sessions)
+  if [ -z "$SSH_CLIENT" ]; then
+    function _update_ps1() {
+      PS1=$(powerline-shell $?)
+    }
+    if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
+      PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+    fi
+  else
+    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
   fi
 
   # Ruby
@@ -78,14 +61,12 @@ bind 'set completion-prefix-display-length 2'
 bind 'set completion-map-case on'
 bind 'set visible-stats on' # Show file info in complete
 
-# History size
+# Eternal bash history
 export HISTSIZE=-1
-export HISTFILESIZE=4096
+export HISTFILESIZE=-1
+shopt -s histappend
 
 # Source other dotfiles
 [[ -f ~/.bash_functions ]] && . ~/.bash_functions
 [[ -f ~/.aliases ]] && . ~/.aliases
 [[ -f ~/.bashrc-local ]] && . ~/.bashrc-local
-
-# Autostart X when logged in on tty1
-#[[ -z $DISPLAY && $XDG_VTNR -eq 1 && $EUID -ne 0 ]] && exec startx

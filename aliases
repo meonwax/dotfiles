@@ -29,6 +29,11 @@ alias aurget='nice yay --getpkgbuild --aur'
 alias makepkg='nice makepkg'
 alias make='nice make'
 
+# Disc burning (more in .bash_functions)
+alias burn-iso='wodim -dao -v dev=/dev/sr0'
+alias burn-cue='cdrdao write -n --device /dev/sr0'
+alias burn-blank='wodim -v dev=/dev/sr0 -blank=fast'
+
 alias grep='grep --color=auto'
 alias vi='vim'
 alias iotop='sudo iotop'
