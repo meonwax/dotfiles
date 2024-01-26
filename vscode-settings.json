@@ -1,16 +1,66 @@
 {
-    "editor.fontFamily": "'FiraCode Nerd Font Regular', monospace",
+    "editor.fontFamily": "'NotoMono Nerd Font Regular', monospace",
+    // "editor.fontFamily": "JetBrainsMono Nerd Font, monospace"
+    // "editor.fontFamily": "'FiraCode Nerd Font Regular', monospace",
     // "editor.fontFamily": "'Monaspace Neon', monospace",
     // "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss07', 'ss08'",
+    // "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02'",
     "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorStyle": "underline",
     "editor.renderWhitespace": "boundary",
+    "editor.wordWrapColumn": 120,
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.cursorStyle": "underline",
     "terminal.integrated.scrollback": 99999999,
-    "workbench.colorTheme": "Gruvbox Dark Hard",
-    "telemetry.telemetryLevel": "off",
-    "gitlens.telemetry.enabled": false,
+    "workbench.colorTheme": "Gruvbox Dark (Hard)",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.confirmBeforeClose": "keyboardOnly",
+    "window.title": "${folderName} - ${appName}",
+    "files.autoSave": "afterDelay",
+    "git.inputValidationSubjectLength": 72,
+    "git.openRepositoryInParentFolders": "never",
     "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmDelete": false,
+    "telemetry.telemetryLevel": "off",
+    "redhat.telemetry.enabled": false,
+    "gitlens.telemetry.enabled": false,
+    "nxConsole.showNodeVersionOnStartup": false,
+    "dev.containers.defaultExtensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "eamodio.gitlens",
+        "gitHub.copilot"
+    ],
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.experiments.optOutFrom": [
+        "All"
+    ],
+    "autopep8.args": [
+        "--ignore=E302,E305",
+        "--max-line-length=120"
+    ],
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
     "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
     }
