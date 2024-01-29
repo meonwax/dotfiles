@@ -9,8 +9,8 @@ if (($EUID == 0)); then
 else
   # Normal user
 
-  # Powerline shell (not for SSH sessions)
-  if [ -z "$SSH_CLIENT" ]; then
+  # Powerline shell (not for SSH or virtual console sessions)
+  if [ -z "$SSH_CLIENT" ] && [ "$TERM" != "linux" ]; then
     function _update_ps1() {
       PS1=$(powerline-shell $?)
     }

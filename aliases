@@ -48,7 +48,8 @@ if [[ -x /usr/bin/icdiff ]]; then
   alias diff='icdiff'
 fi
 
-if [[ -x /usr/bin/lsd ]]; then
+# LSDeluxe (not for SSH or virtual console sessions)
+if [[ -x /usr/bin/lsd ]] && [ -z "$SSH_CLIENT" ] && [ "$TERM" != "linux" ]; then
   alias ls='lsd'
 else
   alias ls='ls --color=auto --group-directories-first -h'
