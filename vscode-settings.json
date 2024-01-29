@@ -13,7 +13,7 @@
     "editor.wordWrapColumn": 120,
     "terminal.integrated.cursorStyle": "underline",
     "terminal.integrated.scrollback": 99999999,
-    "workbench.colorTheme": "Gruvbox Dark (Hard)",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "none",
     "window.confirmBeforeClose": "keyboardOnly",
