@@ -1,10 +1,5 @@
 {
     "editor.fontFamily": "'NotoMono Nerd Font Regular', monospace",
-    // "editor.fontFamily": "JetBrainsMono Nerd Font, monospace"
-    // "editor.fontFamily": "'FiraCode Nerd Font Regular', monospace",
-    // "editor.fontFamily": "'Monaspace Neon', monospace",
-    // "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss07', 'ss08'",
-    // "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02'",
     "editor.fontSize": 13,
     "editor.tabSize": 2,
     "editor.cursorBlinking": "phase",
@@ -19,6 +14,11 @@
     "window.confirmBeforeClose": "keyboardOnly",
     "window.title": "${folderName} - ${appName}",
     "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.env": "shellscript"
+    },
+    "update.showReleaseNotes": false,
+    "update.mode": "none",
     "git.inputValidationSubjectLength": 72,
     "git.openRepositoryInParentFolders": "never",
     "diffEditor.ignoreTrimWhitespace": false,
@@ -63,5 +63,9 @@
     },
     "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
-    }
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "html.format.wrapLineLength": 0
 }
