@@ -52,6 +52,9 @@
     "[dockerfile]": {
         "editor.defaultFormatter": "ms-azuretools.vscode-docker"
     },
+    "[dockercompose]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
