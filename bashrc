@@ -8,18 +8,22 @@ if (($EUID == 0)); then
   PS1='\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
   # Normal user
+  [[ -f ~/.bashrc ]] && . /usr/share/git/git-prompt.sh
+  export GIT_PS1_SHOWDIRTYSTATE=1
+  export GIT_PS1_SHOWUNTRACKEDFILES=1
+  export GIT_PS1_SHOWSTASHSTATE=1
 
   # Powerline shell (not for SSH or virtual console sessions)
-  if [ -z "$SSH_CLIENT" ] && [ "$TERM" != "linux" ]; then
-    function _update_ps1() {
-      PS1=$(powerline-shell $?)
-    }
-    if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
-      PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-    fi
-  else
-    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-  fi
+#  if [ -z "$SSH_CLIENT" ] && [ "$TERM" != "linux" ]; then
+#    function _update_ps1() {
+#      PS1=$(powerline-shell $?)
+#    }
+#    if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
+#      PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+#    fi
+#  else
+    PS1='$(__git_ps1 "(%s) ")\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+#  fi
 
   # Ruby
   if command -v ruby &>/dev/null; then
