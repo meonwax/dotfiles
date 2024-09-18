@@ -70,5 +70,13 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "html.format.wrapLineLength": 0
+    "html.format.wrapLineLength": 0,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.crd-code-completion": "disabled",
+        "vs-kubernetes.ignore-recommendations": true
+    },
+    "yaml.customTags": [
+        "!reference sequence"
+    ]
 }
