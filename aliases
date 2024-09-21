@@ -22,6 +22,7 @@ alias pacin='sudo nice pacman -S'
 alias pacout='sudo nice pacman -Rncs'
 alias pacshownouse='nice pacman -Qdt'
 alias pacremovenouse='sudo nice pacman -Rscn $(pacman -Qtdq)'
+alias pacclean='sudo pacman -Scc --noconfirm; rm ~/.cache/yay/ -rf'
 alias aurup='nice yay -Syu --devel --removemake --noconfirm'
 alias aurget='nice yay --getpkgbuild --aur'
 
