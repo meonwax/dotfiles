@@ -11,6 +11,7 @@
     "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "none",
+    "security.workspace.trust.enabled": false,
     "window.confirmBeforeClose": "keyboardOnly",
     "window.title": "${folderName} - ${appName}",
     "files.autoSave": "afterDelay",
@@ -72,6 +73,7 @@
     },
     "html.format.wrapLineLength": 0,
     "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
     "vs-kubernetes": {
         "vs-kubernetes.crd-code-completion": "disabled",
         "vs-kubernetes.ignore-recommendations": true
