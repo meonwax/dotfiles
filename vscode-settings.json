@@ -16,7 +16,8 @@
     "window.title": "${folderName} - ${appName}",
     "files.autoSave": "afterDelay",
     "files.associations": {
-        "*.env": "shellscript"
+        "*.env": "shellscript",
+        "*.yaml.tpl": "yaml"
     },
     "update.showReleaseNotes": false,
     "update.mode": "none",
@@ -46,18 +47,19 @@
     "python.experiments.optOutFrom": [
         "All"
     ],
+    "python.analysis.typeCheckingMode": "strict",
     "autopep8.args": [
         "--ignore=E302,E305",
         "--max-line-length=120"
     ],
-    "[dockerfile]": {
-        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-    },
     "[dockercompose]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
